@@ -758,3 +758,97 @@ nav {
     bottom:-15px;
     left: 0;
 }
+
+/* media query for main page */
+@media (max-width:900px) {
+  .right-sidebar, .left-sidebar{
+    display: none;
+  }
+  nav{
+    flex-wrap: wrap;
+  }
+  .search-box{
+    display: none;
+  }
+  .logo{
+    width: 110px;
+    margin-right: 20px;
+  }
+
+.nav-left ul li img {
+    width: 20px;
+    margin: 0 8px;
+}
+.user-icon img{
+width: 30px;
+margin-left: 0;
+}
+.add-post-links{
+    flex-wrap: wrap;
+}
+.main-content{
+    flex-basis: 100%;
+}
+.story img{
+    widows: 20px;
+    border-width: 3px;
+}
+.story p{
+    font-size: 10px;
+}
+
+.story.story1 img{
+    width: 25px;
+    bottom: 30px;
+}
+.add-post-links a{
+    margin-right: 12px;
+    font-size: 10px;
+
+}
+.add-post-links a img{
+    width: 16px;
+    margin-right: 5px;
+}
+.post-input-container{
+    padding-left: 0;
+}
+.activity-icon div {
+    margin-right: 10px;
+}
+}
+
+
+/* media query for profile page */
+
+@media(max-width:900px){
+ .profile-container{
+    padding: 20px 0;
+    
+}
+
+.pd-row div h3{
+    font-size:20px ;
+}
+.profile-details{
+    flex-wrap: wrap;
+}
+.pd-right{
+    text-align: left;
+    margin-top: 15px;
+}
+.pd-right button{
+    margin-left: 0;
+    margin-right: 10px;
+}
+
+.profile-info{
+    flex-wrap: wrap;
+
+}
+.info-col, .post-col{
+    flex-wrap: wrap;
+    flex-basis: 97%;
+    margin: auto;
+}
+}
